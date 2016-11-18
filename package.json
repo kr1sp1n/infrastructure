@@ -1,0 +1,24 @@
+{
+  "name": "infrastructure",
+  "version": "0.0.1",
+  "description": "infrastructure of kr1sp1n.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node scripts/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr1sp1n/infrastructure.git"
+  },
+  "author": "kr1sp1n <krispin@posteo.de> (http://kr1sp1n.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/infrastructure/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/infrastructure#readme",
+  "dependencies": {
+    "digitalocean": "^0.8.3",
+    "simple-ssh": "^0.9.0"
+  }
+}
